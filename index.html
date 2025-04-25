@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Nad Rotul Imaniyah</title>
+  <style>
+    body {
+      font-family: "Times New Roman", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+    }
+
+    header {
+      background-image: url("background.jpeg");
+      color: white;
+      padding: 20px 0;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #347625;
+      padding: 20px;
+      color: white;
+    }
+
+    .profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+
+    .profile-info {
+      text-align: left;
+    }
+
+    .about {
+      background-color: rgb(248, 241, 241);
+      padding: 20px;
+    }
+
+    .tasks {
+      background-color: #ffffff;
+      padding: 20px;
+    }
+
+    .task-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .task {
+      background-color: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 250px;
+    }
+
+    .task img {
+      width: 200px;
+      height: 150px;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
+    .task a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #347625;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #347625;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    .social-icons img {
+      width: 30px;
+      margin: 5px;
+    }
+
+    .tasks h2 {
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+
+    .tasks {
+      position: relative;
+      padding: 50px 20px;
+      overflow: hidden;
+      color: black; /* Bisa disesuaikan */
+      z-index: 1;
+    }
+    
+    #bg-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 1;
+      pointer-events: none;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portofolio</h1>
+    <h2>Grafika Komputer</h2>
+  </header>
+
+  <section class="profile">
+    <img src="ima.jpeg" alt="Foto Nad Rotul Imaniyah" />
+    <div class="profile-info">
+      <h3>Nad Rotul Imaniyah</h3>
+      <p>2413025045</p>
+      <p>PTI 2024 A</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>TENTANG SAYA</h2>
+    <p>
+      Halo! Selamat datang, nama saya Nad Rotul Imaniyah, mahasiswi Universitas Lampung dengan NPM 2413025045. 
+      Saya sedang menempuh program studi S1 di bidang Pendidikan Teknologi Informasi. 
+      Di website ini saya memposting tugas dari mata kuliah Grafika Komputer.
+    </p>
+  </section>
+
+  <section class="tasks">
+    <video autoplay muted loop id="bg-video">
+      <source src="background.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+  
+    <h2>BERIKUT MERUPAKAN BEBERAPA DARI TUGAS SAYA</h2>
+    <div class="task-container">
+  
+      <div class="task">
+        <p><strong>TUGAS 1</strong></p>
+        <img src="Tokoh Perintis.jpeg" alt="Tokoh Perintis Grafika Komputer" />
+        <a href="https://youtu.be/QpDo3ME6SEQ?si=a6NlYzS7HcUQZPIk" target="_blank">Lihat Tugas</a>
+        <p>Tokoh Perintis Grafika Komputer</p>
+      </div>
+
+      <div class="task">
+        <p><strong>TUGAS 2</strong></p>
+        <img src="Garis Dda & Bresenham.jpeg" alt="Garis DDA dan Bresenham" />
+        <a href="https://drive.google.com/file/d/1MpSdBPNUEsd2EiHWm9HFui5SLoYaHPJ8/view?usp=drivesdk" target="_blank">Lihat Tugas</a>
+        <p>Garis DDA dan Bresenham</p>
+      </div>
+
+      <div class="task">
+        <p><strong>TUGAS 3</strong></p>
+        <img src="lingkaran.jpeg" alt="Algoritma Lingkaran" />
+        <a href="https://youtu.be/C0J83DngUbg" target="_blank">Lihat Tugas</a>
+        <p>Algoritma Lingkaran</p>
+      </div>
+
+      <div class="task">
+        <p><strong>TUGAS 4</strong></p>
+        <img src="kurva.jpeg" alt="Algoritma Kurva" />
+        <a href="https://youtu.be/jXjGznYirrs" target="_blank">Lihat Tugas</a>
+        <p>Algoritma Kurva</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/nad-rotul-imaniyah-636a54326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <img src="linkedin.jpeg" alt="LinkedIn" />
+      </a>
+      <a href="https://www.instagram.com/im_ashineyy?igsh=aHlkNjZnaWs4and1" target="_blank">
+        <img src="instagram.jpeg" alt="Instagram" />
+      </a>
+      <a href="https://www.tiktok.com/@sishyy74?_t=ZS-8voccAU6tLc&_r=1" target="_blank">
+        <img src="tiktok.jpeg" alt="TikTok" />
+      </a>
+    </div>
+    <p>Terima kasih telah berkunjung ke website saya</p>
+  </footer>
+</body>
+</html>
